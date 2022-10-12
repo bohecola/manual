@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 进入
-      link: /notes/ecma/方法重写
+      link: /notes/ecmascript/JS变量提升
     - theme: alt
-      text: 在Github上查看
-      link: https://github.com/vuejs/vitepress
+      text: Blog
+      link: https://canday.site
 
 features:
   - icon: 

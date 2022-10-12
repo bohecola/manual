@@ -3,8 +3,9 @@ import sidebar from "./sidebar"
 export default {
   base: '/notes',
   lang: 'zh-CN',
-  title: 'colax-notes',
-  description: 'colax-notes，一个记录的地方',
+  title: 'Home',
+  titleTemplate: 'Notes',
+  description: 'notes，一个记录的地方',
 
   themeConfig: {
 
@@ -29,7 +30,7 @@ export default {
     ],
 
     footer: {
-      message: '日常记录',
+      message: '一些日常记录',
       copyright: 'Copyright © 2022-present bohecola'
     },
 
