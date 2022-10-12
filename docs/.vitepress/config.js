@@ -1,7 +1,7 @@
 import sidebar from "./sidebar"
 
 export default {
-  base: '/',
+  base: '/notes',
   lang: 'zh-CN',
   title: 'colax-notes',
   description: 'colax-notes，一个记录的地方',
