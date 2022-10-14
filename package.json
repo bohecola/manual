@@ -5,11 +5,16 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "prepare": "husky install",
+    "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.19",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.0",
+    "vitepress": "^1.0.0-alpha.20",
     "vue": "^3.2.40"
   }
 }
