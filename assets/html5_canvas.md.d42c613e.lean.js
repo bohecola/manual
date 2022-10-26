@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.15042ad6.js";const x=JSON.parse('{"title":"Canvas","description":"","frontmatter":{},"headers":[],"relativePath":"html5/canvas.md","lastUpdated":1666778056000}'),c={name:"html5/canvas.md"},t=e("",2),l=[t];function o(p,r,i,_,d,h){return n(),a("div",null,l)}const m=s(c,[["render",o]]);export{x as __pageData,m as default};
