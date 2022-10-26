@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 进入
-      link: /notes/ecmascript/JS变量提升
+      link: /ecmascript/JS变量提升
     - theme: alt
       text: Blog
       link: https://canday.site
