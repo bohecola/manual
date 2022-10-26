@@ -5,35 +5,38 @@ export default {
   lang: 'zh-CN',
   title: 'Home',
   titleTemplate: 'Notes',
-  description: 'notes，一个记录的地方',
+  description: '个人学习笔记',
 
   themeConfig: {
-
-    siteTitle: '一个记录的地方',
+    siteTitle: 'Notes',
     outline: 'deep',
     outlineTitle: '导航目录',
     lastUpdatedText: 'Last updated',
 
+    // 顶部导航
     nav: [
-      { text: '首页', link: '/' },
-      { text: '笔记', link: '/notes/ecmascript/JS变量提升', activeMatch: '/notes/' },
-      { text: '工具站点', link: '/links' }
+      // { text: '笔记', link: '/ecmascript/JS变量提升', activeMatch: '/' },
+      { text: '工具站点', link: '/links', activeMatch: '/links' }
     ],
 
+    // 侧边栏
     sidebar: {
-      '/notes/': sidebar,
+      '/': sidebar,
       '/links/': { text: '常用链接', link: '/links' }
     },
 
+    // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bohecola' }
     ],
 
+    // 底部
     footer: {
       message: '一些日常记录',
       copyright: 'Copyright © 2022-present bohecola'
     },
 
+    // 上下翻页
     docFooter: {
       prev: 'Pagina prior',
       next: 'Proxima pagina'
