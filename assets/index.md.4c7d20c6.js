@@ -1,0 +1,3 @@
+import{_ as s,c as a,o as e,a as n}from"./app.beba6374.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","lastUpdated":1666858027000}'),t={name:"index.md"},o=n(`<div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki"><code><span class="line"><span style="color:#676E95;"># \u9996\u9875\u5360\u4F4D</span></span>
+<span class="line"><span style="color:#82AAFF;">echo</span><span style="color:#A6ACCD;"> Hello World</span></span>
+<span class="line"></span></code></pre></div>`,1),c=[o];function l(p,_,r,d,i,h){return e(),a("div",null,c)}const f=s(t,[["render",l]]);export{u as __pageData,f as default};
