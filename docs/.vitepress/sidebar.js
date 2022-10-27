@@ -30,7 +30,8 @@ const sidebar = [
     text: 'HTML',
     collapsible: true,
     items: [
-      { text: 'Canvas', link: `/html5/Canvas` },
+      { text: '基础', link: `/html/base` },
+      { text: 'Canvas', link: `/html/canvas` },
     ]
   }
 ]

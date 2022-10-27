@@ -10,7 +10,7 @@ export default {
   themeConfig: {
     siteTitle: 'Notes',
     outline: 'deep',
-    outlineTitle: '导航目录',
+    outlineTitle: '目录',
     lastUpdatedText: 'Last updated',
 
     // 顶部导航

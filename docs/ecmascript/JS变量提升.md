@@ -91,10 +91,7 @@ test(); // 0 ~ 9
 
 ## 参考
 
-[mdn-变量提升](https://developer.mozilla.org/zh-CN/docs/Glossary/Hoisting)
-
-[JS中的预编译如何进行？看完这篇就够了](https://www.isolves.com/it/cxkf/yy/js/2021-04-25/38898.html)
-
-[知乎-JavaScript有预编译吗？](https://www.zhihu.com/question/29105940/answer/43277384)
-
+[mdn-变量提升](https://developer.mozilla.org/zh-CN/docs/Glossary/Hoisting)  
+[JS中的预编译如何进行？看完这篇就够了](https://www.isolves.com/it/cxkf/yy/js/2021-04-25/38898.html)  
+[知乎-JavaScript有预编译吗？](https://www.zhihu.com/question/29105940/answer/43277384)  
 [JavaScript秘密花园](https://bonsaiden.github.io/JavaScript-Garden/zh/#function.scopes)
