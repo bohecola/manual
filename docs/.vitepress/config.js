@@ -3,12 +3,13 @@ import sidebar from "./sidebar"
 export default {
   base: '/notes/',
   lang: 'zh-CN',
-  title: 'Home',
-  titleTemplate: 'Notes',
+  title: '首页',
+  titleTemplate: '在线笔记',
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   description: '个人学习笔记',
 
   themeConfig: {
-    siteTitle: 'Notes',
+    siteTitle: '在线笔记',
     outline: 'deep',
     outlineTitle: '目录',
     lastUpdatedText: 'Last updated',

@@ -1,4 +1,5 @@
-# CSS
+# CSS 基础
+
 ## 概述
 - cascding style sheet 层叠样式表
 ```css
@@ -65,9 +66,8 @@
 
 - 浏览器设置字体大小的时候，设置的是高度，宽度自动缩放
 - font-weight：
-
-1. 1. 100-900
-   2. lighter、normal、bold、bolder
+  1. 100-900
+  2. lighter、normal、bold、bolder
 
 - font-style：italic(字体自带的斜体属性)、oblique(使字体向右倾斜); <em></em>
 - 并不是所有字体都具有斜体的样式，对于那些没有斜体样式的字体来说，使用italic是没有效果的，此时就可以利用oblique代替italic来实现字体倾斜的效果
@@ -83,9 +83,8 @@
 - 基本属性：border-width/style/color
 
 - 使用边框实现三角形
-
-1. 1. 盒子宽高设置为零、设置边框宽度
-   2. 所有边框透明、再给其中一个边框设置颜色
+  1. 盒子宽高设置为零、设置边框宽度
+  2. 所有边框透明、再给其中一个边框设置颜色
 
 ## 文本
 

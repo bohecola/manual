@@ -1,4 +1,1 @@
-```sh
-# 首页占位
-echo Hello World
-```
+![javascript](./assets/img/js.jpeg)

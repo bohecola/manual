@@ -57,11 +57,33 @@ const sidebar = [
     ]
   },
   {
-    text: 'react',
+    text: 'React',
     collapsible: true,
     items: [
       { text: 'react基础', link: `/react/react基础` },
       { text: 'react面向组件编程', link: `/react/react面向组件编程` },
+      { text: 'react脚手架', link: `/react/react脚手架` },
+      { text: 'react网络请求', link: `/react/react网络请求` },
+      { text: 'react-router-5', link: `/react/react-router-5` },
+      { text: 'react UI组件库', link: `/react/react-ui组件库` },
+      { text: 'redux', link: `/react/redux` },
+      { text: 'react-redux', link: `/react/react-redux` },
+      { text: 'react扩展', link: `/react/react扩展` },
+      { text: 'react-router-6', link: `/react/react-router-6` },
+    ]
+  },
+  {
+    text: 'Vue',
+    collapsible: true,
+    items: [
+      { text: 'vue核心基础', link: `/vue/vue核心基础` },
+      { text: 'vue组件化编程', link: `/vue/vue组件化编程` },
+      { text: 'vue组件进阶', link: `/vue/vue组件进阶` },
+      { text: 'vue脚手架', link: `/vue/vue脚手架` },
+      { text: 'vue网络请求', link: `/vue/vue网络请求` },
+      { text: 'vuex', link: `/vue/vuex` },
+      { text: 'vue-router', link: `/vue/vue-router` },
+      { text: 'vue3', link: `/vue/vue3` },
     ]
   },
   {
@@ -69,13 +91,25 @@ const sidebar = [
     collapsible: true,
     items: [
       { text: 'Node事件环', link: `/nodejs/Node事件环` },
+      { text: 'Nodejs基础', link: `/nodejs/Nodejs基础` },
+      { text: 'Express', link: `/nodejs/Express` },
+      { text: '数据库和身份认证', link: `/nodejs/数据库和身份认证` }
+    ]
+  },
+  {
+    text: 'Webpack',
+    collapsible: true,
+    items: [
+      { text: 'webpack', link: `/webpack/webpack` },
     ]
   },
   {
     text: 'CSS',
     collapsible: true,
     items: [
-      { text: 'CSS', link: `/css/css` },
+      { text: 'css基础', link: `/css/css基础` },
+      { text: 'css选择器', link: `/css/css选择器` },
+      { text: 'flex布局', link: `/css/flex布局` },
     ]
   },
   {
@@ -89,6 +123,13 @@ const sidebar = [
       { text: 'Canvas', link: `/html/canvas` },
     ]
   },
+  {
+    text: 'Git',
+    collapsible: true,
+    items: [
+      { text: 'git', link: `/git/git` },
+    ]
+  }
 ]
 
 export default sidebar;

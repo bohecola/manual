@@ -663,7 +663,6 @@ class Login extends React.Component {
 
 - `componentWillUnmount`
 
-<!-- ![React Lifecycle](https://brucecai55520.gitee.io/bruceblog/assets/img/react-lifecyle-old.5c4592bd.png) -->
 ![React Lifecycle](../assets/img/react-lifecyle-old.png)
 
 ### 生命周期新版
@@ -673,7 +672,7 @@ class Login extends React.Component {
 - 废弃三个钩子：`componentWillMount` 、`componentWillReceiveProps` 、 `componentWillUpdate` 。在新版本中这三个钩子需要加 `UNSAFE_` 前缀才能使用，后续可能会废弃。
 - 新增两个钩子（实际场景用得很少）：`getDerivedStateFromProps` 、`getSnapshotBeforeUpdate`
 
-![React LIfecycle New](https://brucecai55520.gitee.io/bruceblog/assets/img/react-lifecycle-new.7009279b.png)
+![React LIfecycle New](../assets/img/react-lifecycle-new.png)
 
 [static getDerivedStateFromProps(props, state) (opens new window)](https://zh-hans.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)：
 
@@ -752,7 +751,7 @@ ReactDOM.render(<NewsList />, document.getElementById('test'))
 
 ## 虚拟 DOM 与 Diff 算法
 
-![Diff](https://brucecai55520.gitee.io/bruceblog/assets/img/Diff.ae9f4adc.png)
+![Diff](../assets/img/Diff.png)
 
 **`key` 的作用：**
 

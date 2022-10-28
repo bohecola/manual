@@ -31,7 +31,7 @@ const proxy = new Proxy(obj, {
 
 Reflect 提供了一套用于操作对象的 API，之前操作对象可以用 `Object` 上面的一些方法，也可以用 `in`、`delete` 这种操作符，使用 `Reflect` 就统一了操作方式
 
-![img](https://cdn.nlark.com/yuque/0/2021/webp/396745/1622908363582-1f619569-0c77-4930-8ed1-f1dac82ddfae.webp)
+![img](../assets/img/reflect.png)
 
 ### 3、`.apply()`
 
