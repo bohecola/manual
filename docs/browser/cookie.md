@@ -212,13 +212,13 @@ Set-Cookie: CookieName=CookieValue; SameSite=Lax;
 
 | **请求类型** | **示例**                           | **正常情况** | **Lax**    |
 | ------------ | ---------------------------------- | ------------ | ---------- |
-| 链接         | <a href="..."></a>                 | 发送Cookie   | 发送Cookie |
-| 预加载       | <link rel="prerender" href="..."/> | 发送Cookie   | 发送Cookie |
-| GET表单      | <form method="GET" action="...">   | 发送Cookie   | 发送Cookie |
-| POST表单     | <form method="POST" action="...">  | 发送Cookie   | 不发送     |
-| iframe       | <iframe src="..."></iframe>        | 发送Cookie   | 不发送     |
+| 链接         | `<a href="..."></a>`                 | 发送Cookie   | 发送Cookie |
+| 预加载       | `<link rel="prerender" href="..."/>` | 发送Cookie   | 发送Cookie |
+| GET表单      | `<form method="GET" action="...">`   | 发送Cookie   | 发送Cookie |
+| POST表单     | `<form method="POST" action="...">`  | 发送Cookie   | 不发送     |
+| iframe       | `<iframe src="..."></iframe>`        | 发送Cookie   | 不发送     |
 | AJAX         | $.get("...")                       | 发送Cookie   | 不发送     |
-| lmage        | <img src="...">                    | 发送Cookie   | 不发送     |
+| lmage        | `<img src="...">`                    | 发送Cookie   | 不发送     |
 
 设置了Strict或Lax以后，基本就杜绝了 CSRF 攻击。当然，前提是用户浏览器支持 SameSite 属性。
 
