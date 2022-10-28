@@ -1,7 +1,7 @@
 import sidebar from "./sidebar"
 
 export default {
-  base: '/notes/',
+  base: '/',
   lang: 'zh-CN',
   title: '首页',
   titleTemplate: '在线笔记',
