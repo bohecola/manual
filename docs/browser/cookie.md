@@ -37,13 +37,13 @@ Cookie 由 HTTP 协议生成，也主要是供 HTTP 协议使用。
 
 服务器如果希望在浏览器保存 Cookie，就要在 HTTP 回应的头信息里面，放置一个Set-Cookie字段。
 
-```http
+```
 Set-Cookie:foo=bar
 ```
 
 上面代码会在浏览器保存一个名为foo的 Cookie，它的值为bar。HTTP 回应可以包含多个Set-Cookie字段，即在浏览器生成多个 Cookie。下面是一个例子。
 
-```http
+```
 HTTP/1.0 200 OK
 Content-type: text/html
 Set-Cookie: yummy_cookie=choco
@@ -64,37 +64,37 @@ Set-Cookie: <cookie-name>=<cookie-value>; HttpOnly
 
 上面的几个属性的含义，将在后文解释。一个Set-Cookie字段里面，可以同时包括多个属性，没有次序的要求。
 
-```http
+```
 Set-Cookie: <cookie-name>=<cookie-value>; Domain=<domain-value>; Secure; HttpOnly
 ```
 
 下面是一个例子。
 
-```http
+```
 Set-Cookie: id=a3fWa; Expires=Wed, 21 Oct 2015 07:28:00 GMT; Secure; HttpOnly
 ```
 
 如果服务器想改变一个早先设置的 Cookie，必须同时满足四个条件：Cookie 的key、domain、path和secure都匹配。举例来说，如果原始的 Cookie 是用如下的Set-Cookie设置的。
 
-```http
+```
 Set-Cookie: key1=value1; domain=example.com; path=/blog
 ```
 
 改变上面这个 Cookie 的值，就必须使用同样的Set-Cookie。
 
-```http
+```
 Set-Cookie: key1=value2; domain=example.com; path=/blog
 ```
 
 只要有一个属性不同，就会生成一个全新的 Cookie，而不是替换掉原来那个 Cookie。
 
-```http
+```
 Set-Cookie: key1=value2; domain=example.com; path=/
 ```
 
 上面的命令设置了一个全新的同名 Cookie，但是path属性不一样。下一次访问example.com/blog的时候，浏览器将向服务器发送两个同名的 Cookie。
 
-```http
+```
 Cookie: key1=value1; key1=value2
 ```
 
@@ -104,19 +104,19 @@ Cookie: key1=value1; key1=value2
 
 浏览器向服务器发送 HTTP 请求时，每个请求都会带上相应的 Cookie。也就是说，把服务器早前保存在浏览器的这段信息，再发回服务器。这时要使用 HTTP 头信息的Cookie字段。
 
-```http
+```
 Cookie: foo=bar
 ```
 
 上面代码会向服务器发送名为foo的 Cookie，值为bar。Cookie字段可以包含多个 Cookie，使用分号（;）分隔。
 
-```http
+```
 Cookie: name=value; name2=value2; name3=value3
 ```
 
 下面是一个例子。
 
-```http
+```
 GET /sample_page.html HTTP/1.1
 Host: www.example.org
 Cookie: yummy_cookie=choco; tasty_cookie=strawberry
@@ -133,7 +133,7 @@ Cookie: yummy_cookie=choco; tasty_cookie=strawberry
 
 Expires属性指定一个具体的到期时间，到了指定时间以后，浏览器就不再保留这个 Cookie。它的值是 UTC 格式，可以使用`Date.prototype.toUTCString()`进行格式转换。
 
-```http
+```
 Set-Cookie: id=a3fWa; Expires=Wed, 21 Oct 2015 07:28:00 GMT;
 ```
 
@@ -157,7 +157,7 @@ Secure属性指定浏览器只有在加密协议 HTTPS 下，才能将这个 Coo
 
 Chrome 51 开始，浏览器的 Cookie 新增加了一个SameSite属性，用来防止 CSRF 攻击和用户追踪。Cookie 往往用来存储用户的身份信息，恶意网站可以设法伪造带有正确 Cookie 的 HTTP 请求，这就是 CSRF 攻击。举例来说，用户登陆了银行网站your-bank.com，银行服务器发来了一个 Cookie。
 
-```http
+```
 Set-Cookie:id=a3fWa;
 ```
 
@@ -194,7 +194,7 @@ Set-Cookie:id=a3fWa;
 
 Strict最为严格，完全禁止第三方 Cookie，跨站点时，任何情况下都不会发送 Cookie。换言之，只有当前网页的 URL 与请求目标一致，才会带上 Cookie。
 
-```http
+```
 Set-Cookie: CookieName=CookieValue; SameSite=Strict;
 ```
 
@@ -204,7 +204,7 @@ Set-Cookie: CookieName=CookieValue; SameSite=Strict;
 
 Lax规则稍稍放宽，大多数情况也是不发送第三方 Cookie，但是导航到目标网址的 Get 请求除外。
 
-```http
+```
 Set-Cookie: CookieName=CookieValue; SameSite=Lax;
 ```
 
@@ -226,13 +226,13 @@ Set-Cookie: CookieName=CookieValue; SameSite=Lax;
 
 Chrome 计划将Lax变为默认设置。这时，网站可以选择显式关闭SameSite属性，将其设为None。不过，前提是必须同时设置Secure属性（Cookie 只能通过 HTTPS 协议发送），否则无效。下面的设置无效。
 
-```http
+```
 Set-Cookie: widget_session=abc123; SameSite=None
 ```
 
 下面的设置有效。
 
-```http
+```
 Set-Cookie: widget_session=abc123; SameSite=None; Secure
 ```
 

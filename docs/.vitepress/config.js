@@ -1,7 +1,7 @@
 import sidebar from "./sidebar"
 
 export default {
-  base: '/manual/',
+  base: '/notes/',
   lang: 'zh-CN',
   title: 'Home',
   titleTemplate: 'Notes',
