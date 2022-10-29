@@ -42,5 +42,5 @@ export default {
       next: 'Proxima pagina'
     }
   },
-  lastUpdated: true
+  lastUpdated: false
 }
