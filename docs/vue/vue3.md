@@ -1,6 +1,6 @@
 # Vue3
 
-[官网传送门(opens new window)](https://v3.cn.vuejs.org/)
+[官网传送门](https://v3.cn.vuejs.org/)
 
 ## Vue3 的变化
 
@@ -70,7 +70,7 @@ npm run serve
 
 ### 使用 vite 创建
 
-- [vite (opens new window)](https://vitejs.cn/)：新一代前端构建工具
+- [vite ](https://vitejs.cn/)：新一代前端构建工具
 - 优势：
   - 开发环境中，无需打包操作，可快速冷启动（webpack 每次运行项目都要打包）
   - 轻量快速的热重载 HMR（更改代码局部刷新，webpack 也行，但 vite 更轻量）
@@ -275,8 +275,8 @@ export default {
 
 ### Vue3 响应式原理
 
-- 通过 [Proxy (opens new window)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)代理，拦截对对象属性的操作，包括增删改查
-- 通过 [Reflect (opens new window)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect)反射，对源对象的属性进行操作
+- 通过 [Proxy ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)代理，拦截对对象属性的操作，包括增删改查
+- 通过 [Reflect ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect)反射，对源对象的属性进行操作
 
 ```js
 let originPerson = {

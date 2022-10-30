@@ -1,8 +1,8 @@
 # Redux
 
-[官网(opens new window)](https://redux.js.org/)
+[官网](https://redux.js.org/)
 
-[中文文档(opens new window)](https://www.redux.org.cn/)
+[中文文档](https://www.redux.org.cn/)
 
 ## Redux 概述
 

@@ -1,6 +1,6 @@
 # Vue Router
 
-[官网传送门(opens new window)](https://router.vuejs.org/zh/)
+[官网传送门](https://router.vuejs.org/zh/)
 
 ## 路由
 

@@ -1,6 +1,6 @@
 # Vue 脚手架
 
-[官网传送门(opens new window)](https://cli.vuejs.org/zh/)
+[官网传送门](https://cli.vuejs.org/zh/)
 
 ## 创建 Vue 项目
 
@@ -90,7 +90,7 @@ render: createElement => createElement(App)
 ## vue.config.js 配置文件
 
 1. 使用 `vue inspect > output.js` 可以查看到 Vue 脚手架的默认配置。
-2. 使用 `vue.config.js` 可以对脚手架进行个性化定制，[详情(opens new window)](https://cli.vuejs.org/zh/config/)
+2. 使用 `vue.config.js` 可以对脚手架进行个性化定制，[详情](https://cli.vuejs.org/zh/config/)
 
 ## TodoList 案例总结
 
@@ -112,7 +112,7 @@ render: createElement => createElement(App)
 
 ## 一些第三方包
 
-- [nanoid(opens new window)](https://gitee.com/mirrors/nanoid#nano-id)
+- [nanoid](https://gitee.com/mirrors/nanoid#nano-id)
 
 ```text
 npm install nanoid

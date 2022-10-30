@@ -1,6 +1,6 @@
 # React Router 6
 
-[官方文档(opens new window)](https://reactrouter.com/)
+[官方文档](https://reactrouter.com/)
 
 ## 概述
 

@@ -2,7 +2,7 @@
 
 ## Ant Design 配置按需引入和自定义主题
 
-> 以下配置是 `3.x` 版本，`4.x` 版本见[官网(opens new window)](https://3x.ant.design/index-cn)
+> 以下配置是 `3.x` 版本，`4.x` 版本见[官网](https://3x.ant.design/index-cn)
 
 1. 安装依赖：
 

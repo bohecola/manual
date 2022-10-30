@@ -1,6 +1,6 @@
 # Express
 
-[官网传送门(opens new window)](https://www.expressjs.com.cn/)
+[官网传送门](https://www.expressjs.com.cn/)
 
 > 基于 Node.js 平台，快速、开放、极简的 Web 开发框架
 

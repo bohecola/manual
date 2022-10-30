@@ -51,7 +51,7 @@ module.exports = function (app) {
 
 即 React 中兄弟组件或任意组件之间的通信方式。
 
-使用的工具库：[PubSubJS(opens new window)](https://www.npmjs.com/package/pubsub-js)
+使用的工具库：[PubSubJS](https://www.npmjs.com/package/pubsub-js)
 
 下载安装 `PubSubJS` ：`npm install pubsub-js --save`
 

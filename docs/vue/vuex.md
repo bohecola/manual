@@ -1,6 +1,6 @@
 # Vuex
 
-[官网传送门(opens new window)](https://vuex.vuejs.org/zh/)
+[官网传送门](https://vuex.vuejs.org/zh/)
 
 ## 概述
 

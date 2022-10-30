@@ -31,7 +31,7 @@ npm install react-router-dom@5.2.0 -S
 npm install react-router-dom -S
 ```
 
-`6.x` 版本的用法参考[文章(opens new window)](https://zhuanlan.zhihu.com/p/191419879)
+`6.x` 版本的用法参考[文章](https://zhuanlan.zhihu.com/p/191419879)
 
 以 `5.x` 版本为例展示基本使用：
 

@@ -182,7 +182,7 @@ console.log(school === student) // false
 - 基础类型检查：`String, Number, Boolean, Array, Object, Date, Function, Symbol`
 - 多个可能的类型
 - 必填项检查
-- [默认值(opens new window)](https://www.cnblogs.com/mmzuo-798/p/15188014.html)
+- [默认值](https://www.cnblogs.com/mmzuo-798/p/15188014.html)
 - 自定义验证函数 `validator`
 - `props` 是只读的，若是对象，对象内部的修改不报错，但不推荐。若需修改，则把 `props` 内容拷贝一份到 `data` 进行修改
 
@@ -225,8 +225,8 @@ props: {
 
 - 父组件通过 `props` 给子组件传递函数，子组件调用该函数即可修改父组件的数据
 - 组件 `methods` 里函数的 this 始终指向该组件实例，可理解为 Vue 底层对这些函数做了`bind`处理
-- 通过`bind`修改 this 指向后的新函数，其 this 指向不能再次修改。[官网说明(opens new window)](https://cn.vuejs.org/v2/api/#methods)
-- [思否文章(opens new window)](https://segmentfault.com/q/1010000015951625)
+- 通过`bind`修改 this 指向后的新函数，其 this 指向不能再次修改。[官网说明](https://cn.vuejs.org/v2/api/#methods)
+- [思否文章](https://segmentfault.com/q/1010000015951625)
 - 不推荐该方式进行子传父，推荐使用自定义事件
 
 ```html

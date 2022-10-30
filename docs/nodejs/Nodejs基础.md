@@ -1,6 +1,6 @@
 # Nodejs 基础
 
-[官网传送门(opens new window)](https://nodejs.org/en/)
+[官网传送门](https://nodejs.org/en/)
 
 ## 初识 Nodejs
 
@@ -8,14 +8,14 @@
 >
 > Node.js® 是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境
 
-- 基于 [Express 框架 (opens new window)](http://www.expressjs.com.cn/)，可以快速构建 Web 应用
-- 基于 [Electron 框架 (opens new window)](https://electronjs.org/)，可以构建跨平台的桌面应用
-- 基于 [restify 框架 (opens new window)](http://restify.com/)，可以快速构建 API 接口项目
+- 基于 [Express 框架 ](http://www.expressjs.com.cn/)，可以快速构建 Web 应用
+- 基于 [Electron 框架 ](https://electronjs.org/)，可以构建跨平台的桌面应用
+- 基于 [restify 框架 ](http://restify.com/)，可以快速构建 API 接口项目
 - 读写和操作数据库、创建实用的命令行工具辅助前端开发、etc…
 
 ## Buffer 缓冲区
 
-> [Buffer 缓冲区文档(opens new window)](http://nodejs.cn/api/buffer.html)
+> [Buffer 缓冲区文档](http://nodejs.cn/api/buffer.html)
 
 - Buffer 的结构与数组类似，操作方法也与数组类似
 - 数组不能存储二进制文件，Buffer 是专门存储二进制数据的

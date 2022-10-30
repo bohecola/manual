@@ -252,7 +252,7 @@
 
 ### 类式组件的构造器与 props
 
-[官网文档说明(opens new window)](https://zh-hans.reactjs.org/docs/react-component.html#constructor)
+[官网文档说明](https://zh-hans.reactjs.org/docs/react-component.html#constructor)
 
 构造函数一般用在两种情况：
 
@@ -318,7 +318,7 @@ constructor(props) {
 
 ### 字符串形式的 ref
 
-这种形式已过时，效率不高，[官方 (opens new window)](https://zh-hans.reactjs.org/docs/refs-and-the-dom.html#legacy-api-string-refs)不建议使用。
+这种形式已过时，效率不高，[官方 ](https://zh-hans.reactjs.org/docs/refs-and-the-dom.html#legacy-api-string-refs)不建议使用。
 
 ```html
 <script type="text/babel">
@@ -378,7 +378,7 @@ constructor(props) {
 </script>
 ```
 
-关于回调 `ref` 执行次数的问题，[官网 (opens new window)](https://zh-hans.reactjs.org/docs/refs-and-the-dom.html#caveats-with-callback-refs)描述：
+关于回调 `ref` 执行次数的问题，[官网 ](https://zh-hans.reactjs.org/docs/refs-and-the-dom.html#caveats-with-callback-refs)描述：
 
 TIP
 
@@ -667,20 +667,20 @@ class Login extends React.Component {
 
 ### 生命周期新版
 
-[更改内容 (opens new window)](https://zh-hans.reactjs.org/blog/2018/03/27/update-on-async-rendering.html)：
+[更改内容 ](https://zh-hans.reactjs.org/blog/2018/03/27/update-on-async-rendering.html)：
 
 - 废弃三个钩子：`componentWillMount` 、`componentWillReceiveProps` 、 `componentWillUpdate` 。在新版本中这三个钩子需要加 `UNSAFE_` 前缀才能使用，后续可能会废弃。
 - 新增两个钩子（实际场景用得很少）：`getDerivedStateFromProps` 、`getSnapshotBeforeUpdate`
 
 ![React LIfecycle New](../assets/img/react-lifecycle-new.png)
 
-[static getDerivedStateFromProps(props, state) (opens new window)](https://zh-hans.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)：
+[static getDerivedStateFromProps(props, state) ](https://zh-hans.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)：
 
 - 需使用 `static` 修饰
 - 需返回一个对象更新 `state` 或返回 `null`
 - 适用于如下情况：`state` 的值任何时候都取决于 `props`
 
-[getSnapshotBeforeUpdate(prevProps, prevState) (opens new window)](https://zh-hans.reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)：
+[getSnapshotBeforeUpdate(prevProps, prevState) ](https://zh-hans.reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)：
 
 - 在组件更新之前获取快照
 - 得组件能在发生更改之前从 DOM 中捕获一些信息（如滚动位置）

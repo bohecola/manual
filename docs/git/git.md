@@ -295,13 +295,13 @@ git reset --hard 版本号
 
 ## 修改 commit 记录
 
-1. 往最后一次 commit 追加记录，而不新建 commit - [reference(opens new window)](https://segmentfault.com/a/1190000038535534)
+1. 往最后一次 commit 追加记录，而不新建 commit - [reference](https://segmentfault.com/a/1190000038535534)
 
 ```bash
 git commit --amend
 ```
 
-1. 合并 commit 记录 - [reference(opens new window)](https://www.jianshu.com/p/4a8f4af4e803)
+1. 合并 commit 记录 - [reference](https://www.jianshu.com/p/4a8f4af4e803)
 
 ```bash
 git rebase -i HEAD~2

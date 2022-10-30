@@ -1,6 +1,6 @@
 # Vue 核心基础
 
-[官网传送门(opens new window)](https://cn.vuejs.org/)
+[官网传送门](https://cn.vuejs.org/)
 
 > Vue 是动态构建用户界面的渐进式 JavaScript 框架
 >
@@ -99,7 +99,7 @@ data 中的数据实际上被存在 `vm._data` 属性上，如果不进行代理
 
    
 
-  API (opens new window)
+  API 
 
   ：
 
@@ -143,14 +143,14 @@ vm._data = observer
 ### Vue 监测数组
 
 - 原理：通过重写数组的 API 实现拦截：`push()、pop()、shift()、unshift()、splice()、sort()、reverse()`
-- 7 个 API 之所以是响应式的，是因为 Vue 对这些方法进行了[包裹 (opens new window)](https://cn.vuejs.org/v2/guide/list.html#数组更新检测)，即二次封装。做了两件事：调用对应的原生方法更新数组 & 重新解析模板更新页面
+- 7 个 API 之所以是响应式的，是因为 Vue 对这些方法进行了[包裹 ](https://cn.vuejs.org/v2/guide/list.html#数组更新检测)，即二次封装。做了两件事：调用对应的原生方法更新数组 & 重新解析模板更新页面
 - 存在问题：
-  - 直接通过数组下标修改是[非响应式的(opens new window)](https://cn.vuejs.org/v2/guide/reactivity.html#对于数组)
+  - 直接通过数组下标修改是[非响应式的](https://cn.vuejs.org/v2/guide/reactivity.html#对于数组)
 - 解决办法：
   - 使用 7 个 API 修改数组
   - `Vue.set()`、`vm.$set()`
   - `Vue.delete()`、`vm.$delete()`
-- [思否文章(opens new window)](https://segmentfault.com/a/1190000015783546)
+- [思否文章](https://segmentfault.com/a/1190000015783546)
 
 ## 插值语法
 

@@ -1,6 +1,6 @@
 # React 入门
 
-[官网传送门(opens new window)](https://reactjs.org/)
+[官网传送门](https://reactjs.org/)
 
 ## React 简介
 

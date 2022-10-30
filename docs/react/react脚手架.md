@@ -7,7 +7,7 @@
 - 进入文件夹：`cd 项目名称`
 - 启动项目：`npm start`
 
-上述方式已经过时，改用下方命令。详见[官方说明 (opens new window)](https://create-react-app.dev/docs/getting-started)。
+上述方式已经过时，改用下方命令。详见[官方说明 ](https://create-react-app.dev/docs/getting-started)。
 
 ```shell
 npx create-react-app my-app

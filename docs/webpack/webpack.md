@@ -17,13 +17,13 @@
 
 早期解决方案：
 
-- [grunt(opens new window)](https://www.gruntjs.net/)
-- [gulp(opens new window)](https://www.gulpjs.com.cn/)
+- [grunt](https://www.gruntjs.net/)
+- [gulp](https://www.gulpjs.com.cn/)
 
 目前主流方案：
 
-- [webpack(opens new window)](https://www.webpackjs.com/)
-- [parcel(opens new window)](https://zh.parceljs.org/)
+- [webpack](https://www.webpackjs.com/)
+- [parcel](https://zh.parceljs.org/)
 
 ## webpack 基础用法
 
@@ -246,7 +246,7 @@ module: {
 ```
 
 - `limit` 用于指定图片大小，单位是 byte
-- 只有 `<= limit` 大小的图片才会被转为 [base64 格式 (opens new window)](https://www.cnblogs.com/ranyonsue/p/8615824.html)的图片
+- 只有 `<= limit` 大小的图片才会被转为 [base64 格式 ](https://www.cnblogs.com/ranyonsue/p/8615824.html)的图片
 
 ### 打包 JS 文件的高级语法
 
