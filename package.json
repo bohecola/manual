@@ -7,7 +7,7 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "prepare": "husky install",
-    "commitlint": "commitlint --config commitlint.config.js -e -V"
+    "commitlint": "commitlint --config .commitlintrc.js -e -V"
   },
   "license": "MIT",
   "devDependencies": {
